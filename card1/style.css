@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+}
+.card{
+    width: 360px;
+    height: 580px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    padding: 28px;
+    gap: 30px;
+}
+.card img{
+    height: 57%;
+    border-radius: 10px;
+}
+.card h2{
+    font-weight: bold;
+    padding-top: 12px;
+    
+}
+.card p{
+    font-size: 1.3rem;
+    padding-top: 10px;
+}
